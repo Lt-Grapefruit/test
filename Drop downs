@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+div.banner {
+	height:150px;
+	font-size:100px;
+	padding:25px;
+	font-align:right;
+	background-color:black;
+	color:white;
+}
+div.menu_button {
+	height:100px;
+	width:200px;
+	padding:10px;
+	margin:25px;
+	background:8c8c8c;
+}
+div.select {
+	display: block;	
+	padding: 8px 25px;
+	color: #333;
+	text-decoration: none;
+}
+div a.nav_menu:hover {
+	color: #fff;
+	background: #939393;
+}
+div a ul.dropdown {
+	min-width: 125px; /* Set width of the dropdown */
+	background: #f2f2f2;
+	display: none;
+	position: absolute;
+	z-index: 999;
+}
+div:hover ul.dropdown {
+	display:block;
+}
+div:hover ul.dropdown li{
+	display:block;
+}
+</style>
+</head>
+<body>
+<div class="banner">
+Banner
+</div>
+	<div class="menu_button">
+		<div class="select"><a class="nav_menu">Menu</a>
+		<ul class="dropdown-menu">
+			<li><a href="#">1</a></li>
+			<li><a href="#">2</a></li>
+			<li><a href="#">3</a></li>
+		</ul>
+	</div>
+</div>
+</body>
+<html>
+<!--add support for steam, xbox live, PSN, twitch, facebook, twitter, origin, curse, battle.net, youtube, google +-->
